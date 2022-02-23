@@ -16,7 +16,7 @@ const Home = () => {
 
 	const addToCheckout = (item) => {
 		addToCart(item);
-		console.log(cart);
+		// console.log(cart);
 	}
 
 	return (

@@ -8,7 +8,7 @@ const Checkout = () => {
 
     const removeProduct = (item) => {
         removeFromCart(item);
-        console.log(item);
+        // console.log(item);
     }
 
 	return (
