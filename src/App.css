@@ -14,3 +14,39 @@
   margin-top: 20px;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color:black; 
+}
+
+a:hover {
+  color: black
+}
+
+.header {
+  padding: 15px;
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+}
+
+.productsDisplay {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.eachCard {
+  padding: 5px;
+}
+
+.card-header {
+  color: red;
+}

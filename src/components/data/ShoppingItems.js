@@ -41,7 +41,7 @@ const shoppingProducts = [
 ];
 
 // Function that simulates making a network request to fetch products
-export const fetchProducts = () =>
+export const fetchProducts = (shoppingItems) =>
 	new Promise((resolve, reject) => {
 		console.log('fetching Data from imaginary products database');
 		setTimeout(() => {

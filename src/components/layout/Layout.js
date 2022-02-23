@@ -5,10 +5,10 @@ const Layout = (props) => {
 	const { children } = props;
 	return (
 		<div>
-			<div>
+			<div className='header'>
 				<Header />
 			</div>
-			<div>{children}</div>
+			<div className='children'>{children}</div>
 		</div>
 	);
 };
